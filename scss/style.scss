@@ -1,0 +1,64 @@
+@import 'config';
+@import 'border';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400&display=swap');
+
+body {
+  font-family: $font-stack;
+  font-size: 15px;
+  background-color: $light-gray;
+}
+
+h2 { color: $dark-blue; }
+p { color: $gray-blue; }
+.container {
+  padding: 2rem;
+  .px-1 { padding: .8rem 1rem; }
+  .regular { font-weight: 400; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    img {margin-top: 2rem;}
+    .card {
+      padding: 0 1.5rem;
+      .card-container-1 {
+        background: #fff;
+        text-align: right;
+        p {text-align: left;}
+        h2 {text-align: left;}
+        padding: 1rem;
+        margin: 1.5rem;
+        box-shadow: 10px 10px 20px #eee;
+      }
+    }
+
+  .card-column {
+    padding: 0 1.5rem;
+      .card-container {
+        background: #fff;
+        text-align: right;
+        p{text-align: left;}
+        h2{text-align: left;}
+        padding: 1rem;
+        margin: 1.5rem;
+        box-shadow: 10px 10px 20px #eee;
+      }
+    }
+}
+
+footer {
+  text-align: center;
+  .attribution{
+    a {
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }
+}
+@import 'mobile';

@@ -1,0 +1,24 @@
+%border{
+  border-radius: 5px;
+}
+
+.border-one {
+  @extend %border;
+  border-top: 6px solid $cyan-color;
+  
+}
+
+.border-two {
+  @extend %border;
+  border-top: 6px solid $red-color;
+}
+
+.border-three {
+  @extend %border;
+  border-top: 6px solid $orange-color;
+}
+
+.border-four {
+  @extend %border;
+  border-top: 6px solid $blue-color;
+}

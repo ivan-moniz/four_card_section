@@ -1,0 +1,36 @@
+@media (max-width: 701px){
+
+  .container {
+    padding: 3rem;
+}
+    .flex-container {
+      text-align: right;
+      grid-template-columns: 1fr;
+      h2 {text-align: left;}
+      p {text-align: left;}
+
+      .card-container {
+        background-color: #fff;
+        img{margin-top: 1.5rem;}
+        p {
+          font-size: .8rem;
+          color: $gray-blue;
+        }
+        margin: 1rem;
+        padding: 1rem;
+        box-shadow: 10px 10px 20px #eee;
+      }
+
+      .card-container-1 {
+        background-color: #fff;
+        img {margin-top: 1.5rem;}
+        p {
+          font-size: .8rem;
+          color: $gray-blue;
+        }
+        margin: 1rem;
+        padding: 1rem;
+        box-shadow: 10px 10px 20px #eee;
+      }
+    }
+  }
